@@ -8,6 +8,41 @@
 
 //always console.log to make it work first
 
+// step 1:
+// function addOne() {
+//   console.log("working");
+// }
+
+// addOne();
+
+// step 2:
+// function addOne(num) {
+//   console.log("working");
+//   console.log(num);
+// }
+
+// addOne(1);
+
+// step 3: this will return nth
+// function addOne(num) {
+//   console.log("working");
+//   console.log(num);
+//   return;
+// }
+
+// console.log(addOne(1));
+
+//step 4:
+// console.log is also a function.
+// when there's a function in a function, it will execute the inner one.
+// function addOne(num) {
+//   console.log("working");
+//   console.log(num);
+//   return "my return";
+// }
+
+// console.log(addOne(1));
+
 function addOne(num) {
   console.log("working");
   return num + 1;
